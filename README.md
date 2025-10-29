@@ -1,4 +1,4 @@
-# Reconnaissance Faciale avec OpenCV
+# Face Recognition with OpenCV
 
 This project uses OpenCV, a popular computer vision library, for **real-time face recognition** using a webcam.
 

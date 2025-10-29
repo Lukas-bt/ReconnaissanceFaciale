@@ -1,39 +1,31 @@
 # Reconnaissance Faciale avec OpenCV
 
-Ce projet utilise OpenCV, une bibliothèque populaire pour la vision par ordinateur, pour la reconnaissance faciale en temps réel à partir d'une webcam.
+This project uses OpenCV, a popular computer vision library, for **real-time face recognition** using a webcam.
 
 ## Installation
 
-Assurez-vous d'avoir installé les dépendances nécessaires :
+Make sure you have the required dependencies installed: 
 - Python 3.x
 - OpenCV (`pip install opencv-python`)
 - NumPy (`pip install numpy`)
 
 ## Utilisation
 
-1. Clonez ce dépôt sur votre machine :
-   ```bash
-   git clone https://github.com/votre_utilisateur/reconnaissance-faciale.git
+1. Clone this repository to your machine:
+```bash
+   git clone https://github.com/Lukas-bt/reconnaissance-faciale.git
   ```
-2. Naviguez vers le répertoire du projet :
+2. Navigate to the project directory:
   ```bash
   cd reconnaissance-faciale
   ```
-3. Exécutez le script Python :
+3. Run the Python script:
   ```bash
 python reconnaissance_faciale.py
 ```
-4. Une fenêtre de webcam s'ouvrira, affichant la vidéo en direct avec les visages détectés encadrés en vert.
-5. Appuyez sur la touche 'q' pour quitter l'application.
+4. A webcam window will open, displaying the live video feed with detected faces highlighted in green.
+5. Press the 'q' key to exit the application.
 
-## Comment ça fonctionne
+## How It Works
 
-Le script utilise la bibliothèque OpenCV pour accéder à la webcam, capturer des images et détecter les visages en utilisant un classificateur de cascades de Haar pré-entraîné.
-
-## Contribution
-
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request pour suggérer des améliorations, corriger des bugs ou ajouter de nouvelles fonctionnalités.
-
-## Auteurs
-
-Ce projet a été développé par Shift/Atsuka (moi) entièrement.
+The script uses OpenCV to access the webcam, capture frames, and detect faces using a pre-trained Haar cascade classifier.
